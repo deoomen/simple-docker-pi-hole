@@ -1,0 +1,7 @@
+.vscode
+
+etc-dnsmasq.d/*
+etc-pihole/*
+.env.local
+
+!.gitkeep
