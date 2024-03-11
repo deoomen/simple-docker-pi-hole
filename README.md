@@ -6,13 +6,13 @@ Feel free to use!
 
 ## What changed?
 
-- move environments variables to `.env` and `.env.local` files,
-- move cron file to root dir,
-- add `update.sh` script for easily update your Pi-hole.
+- moved environments variables to `.env` and `.env.local` files,
+- moved cron file to root dir,
+- added `update.sh` script for easily update your Pi-hole.
 
 ## Quick Start
 
-Dowload or clone repo, go to root dir, create and fill `.env.local` file and just run `docker compose` command.
+Dowload or clone repo, go to root dir, create and fill `.env.local` (for detailed information about environment variables look into [offical repository](https://github.com/pi-hole/docker-pi-hole?tab=readme-ov-file#environment-variables)) file and just run `docker compose` command.
 
 ```sh
 cd /path/to/simple-docker-pi-hole
